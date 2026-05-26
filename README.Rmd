@@ -1,0 +1,26 @@
+---
+title: "Análisis Geoespacial, Inteligencia Artificial y la Visión Geográfica del Territorio. De la observación del territorio a la toma de decisiones para la seguridad hídrica"
+output: github_document
+lang: es
+editor_options: 
+  chunk_output_type: console
+---
+
+<!-- README.md se genera a partir de README.Rmd. Por favor, edita ese archivo. -->
+
+**Presentación en la X Cátedra Magistral Ambiental 2026, Rosa Margarita Bonetti de Santana, 26 de mayo, 2026**
+
+**José-Ramón Martínez-Batlle**  
+Facultad de Ciencias, Universidad Autónoma de Santo Domingo (UASD)  
+Santo Domingo, República Dominicana  
+<jmartinez19@uasd.edu.do>  
+ORCID: [0000-0001-9924-0327](https://orcid.org/0000-0001-9924-0327)
+
+Enlace a la presentación de diapositivas:  
+<https://geofis.github.io/analisis-geoespacial-ia-geografia-y-territorio-catedra-magistral-ambiental/presentacion.html>
+
+Número de palabras en el resumen: `r source('R/contar-palabras.R'); contarpalabras()`
+
+## Resumen
+
+En esta presentación se exploran las aplicaciones del análisis geoespacial y la inteligencia artificial en la comprensión de la visión geográfica del territorio, con un enfoque particular en la seguridad hídrica. Se discuten las metodologías utilizadas para observar el territorio, analizar datos geoespaciales y aplicar técnicas de inteligencia artificial para la toma de decisiones informadas. Se presentan casos de estudio que ilustran cómo estas herramientas pueden contribuir a la gestión sostenible de los recursos hídricos y a la ordenación del territorio. La presentación destaca la importancia de integrar el conocimiento geográfico con tecnologías avanzadas para abordar los desafíos ambientales y promover la seguridad hídrica en el contexto actual.
