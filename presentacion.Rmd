@@ -14,7 +14,7 @@ output:
       ratio: "16:9"
 ---
 
-class: center,middle,title-slide
+class: center, middle
 
 ```{r setup,include=FALSE}
 
@@ -121,7 +121,7 @@ color:white;
 /****************/
 
 .title-slide{
-background-image:url("fondo.png");
+background-image:url("fondo-mesa-domingo.jpg");
 background-size:cover;
 }
 
@@ -225,20 +225,38 @@ text-align:left;
 .clean-list li{
   margin-bottom:12px;
 }
+
+
+.smooth-fade{
+  animation-name: fadeIn;
+  animation-duration:2s;
+  animation-timing-function:cubic-bezier(.22,.61,.36,1);
+}
+
+.photo-credit{
+  position:absolute;
+  left:144px;
+  bottom:18px;
+  z-index:5;
+
+  background:rgba(0,0,0,.55);
+  color:white;
+
+  padding:6px 12px;
+  border-radius:8px;
+
+  font-size:0.65em;
+}
 ```
 
 
-# Análisis Geoespacial, Inteligencia Artificial y la Visión Geográfica del Territorio
+<!-- # Análisis Geoespacial, Inteligencia Artificial y la Visión Geográfica del Territorio -->
 
-### De la observación del territorio a la toma de decisiones para la seguridad hídrica
+<!-- ### De la observación del territorio a la toma de decisiones para la seguridad hídrica -->
 
-José Ramón Martínez Batlle
+<!-- José Ramón Martínez Batlle -->
 
-Universidad Autónoma de Santo Domingo
-
----
-
-class: center, middle
+<!-- Universidad Autónoma de Santo Domingo -->
 
 # El problema
 
@@ -248,11 +266,19 @@ class: center, middle
 
 <div class="big">
 
-Lo que ocurre en la montaña afecta el arrecife
+Lo que ocurre en la montaña
+
+afecta el arrecife
 
 </div>
 </div>
 <br>
+
+---
+
+class: center, middle, full-image
+
+<img src="sistema-fluvial-idealizado.jpg" width="100%">
 
 ---
 
@@ -305,11 +331,6 @@ class: geo-slide
 La geografía estudia las relaciones espaciales y los procesos que ocurren sobre la superficie terrestre, en sentido amplio.
 
 </div>
-
-
-
-
-
 
 ---
 
@@ -365,6 +386,211 @@ class: middle, center
 
 ---
 
+class: center, middle, full-image
+
+<img src="jimani-agradacion-lecho.jpg" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="jimani-intensidad-precipitacion.jpg" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="jimani-mapa-geomorfologico.jpg" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="abanicos-azuey-enriquillo.jpg" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="jimani-y-ahora.jpg" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="un-posible-nuevo-jimani.jpg" height="100%">
+
+---
+class: center, middle, full-image
+
+<div style="
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+">
+
+<img src="deslizamiento-el-limon-2007-circulo.jpg"
+style="
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:contain;
+">
+
+<div style="
+position:absolute;
+top:30px;
+left:50px;
+background:rgba(0,0,0,.6);
+padding:10px 20px;
+border-radius:10px;
+color:white;
+font-size:1.2em;
+">
+
+2007
+
+</div>
+
+</div>
+
+--
+
+<div class="animated smooth-fade"
+style="
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+">
+
+<img src="deslizamiento-el-limon-2011-circulo.jpg"
+style="
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:contain;
+background:none;
+">
+
+<div style="
+position:absolute;
+top:30px;
+left:50px;
+background:rgba(0,0,0,.6);
+padding:10px 20px;
+border-radius:10px;
+color:white;
+font-size:1.2em;
+">
+
+2011
+
+</div>
+
+</div>
+
+---
+
+class: center, middle, full-image
+
+<img src="deslizamiento-el-limon-foto.jpg" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="deslizamiento-amenaza-el-canal.jpg" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="inundacion-panama-01.jpg" height="100%">
+
+---
+class: full-image
+
+<img src="inundacion-panama-02.jpg"
+style="
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:contain;
+">
+
+<div class="photo-credit">
+
+Foto: Katia Tovares
+
+</div>
+
+---
+class: full-image
+
+<img src="inundacion-panama-03.jpg"
+style="
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:contain;
+">
+
+<div class="photo-credit">
+
+Foto: Katia Tovares
+
+</div>
+
+---
+class: full-image
+
+<img src="inundacion-panama-04.jpg"
+style="
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:contain;
+">
+
+<div class="photo-credit">
+
+Foto: Katia Tovares
+
+</div>
+
+---
+
+class: center, middle, full-image
+
+<img src="inundacion-panama-05.jpg" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="inundacion-panama-06.jpg" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="inundacion-panama-07.jpg" height="100%">
+
+---
 
 class:center,middle
 
