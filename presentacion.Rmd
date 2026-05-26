@@ -247,6 +247,44 @@ text-align:left;
 
   font-size:0.65em;
 }
+
+.video-credit{
+
+position:absolute;
+
+left:24px;
+bottom:18px;
+
+z-index:10;
+
+background:rgba(0,0,0,.55);
+
+color:white;
+
+padding:6px 12px;
+
+border-radius:8px;
+
+font-size:.55em;
+
+}
+
+.two-images{
+  padding:0 !important;
+}
+
+.two-images .img-grid{
+  display:flex;
+  width:100%;
+  height:100%;
+  gap:10px;
+}
+
+.two-images .img-grid img{
+  width:50%;
+  height:100vh;
+  object-fit:contain;
+}
 ```
 
 
@@ -591,12 +629,38 @@ class: center, middle, full-image
 <img src="inundacion-panama-07.jpg" height="100%">
 
 ---
+class: two-images
+
+<div class="img-grid">
+
+<img src="rio-isa-01.jpg">
+
+<img src="rio-isa-02.jpg">
+
+</div>
+
+---
+
+class: center, middle, full-image
+
+<img src="rio-isa-03.jpg" height="100%">
+
+---
+class: full-image
+
+<img src="rio-isa-04.gif">
+
+<div class="video-credit">
+
+Animación HEC-RAS: Esther Aquino
+
+</div>
+
+---
 
 class:center,middle
 
 # Computación en la nube
-
-<img src="imagenes/hidrografia_dominicana.jpg" width="100%">
 
 <br>
 
@@ -608,13 +672,94 @@ Ahora es convertirlos en conocimiento.
 
 </div>
 
+
+---
+class: center, middle, full-image
+
+<img src="computacion-nube-01.jpg" width="100%">
+
+---
+class: center, middle, full-image
+
+<img src="computacion-nube-02.png" width="100%">
+
+<div class="photo-credit">
+
+https://geofis.github.io/estadistica-zonal-multiproposito-rd/presentaciones/II-Congreso-IDI-XXII-JIC-nov23.html
+
+</div>
+
 ---
 
 class:center,middle
 
 # Inteligencia Artificial Geoespacial
 
-<img src="imagenes/geoai.png" width="100%">
+<img src="geoai-python-package.jpg" width="100%">
+
+<div class="photo-credit">
+
+https://opengeoai.org/
+
+</div>
+
+---
+class: center, middle, full-image
+
+<img src="geoai-nb-example-01.jpg" height="100%">
+
+<div class="photo-credit">
+
+https://opengeoai.org/examples/train_object_detection_model/
+
+</div>
+
+---
+class: center, middle, full-image
+
+<img src="geoai-nb-example-02.jpg" height="100%">
+
+<div class="photo-credit">
+
+https://opengeoai.org/examples/train_object_detection_model/
+
+</div>
+
+---
+
+class: center, middle, full-image
+
+<img src="embeddings-01.jpg" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="embeddings-02.gif" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="embeddings-03.jpg" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="embeddings-04.jpg" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="ia-clasificacion-rio-mana-01.png" height="100%">
+
+---
+
+class: center, middle, full-image
+
+<img src="ia-clasificacion-rio-mana-02.png" height="100%">
 
 ---
 
@@ -622,11 +767,22 @@ class:center,middle
 
 # Tecnología accesible
 
-<img src="imagenes/hardware.jpg" width="90%">
+---
 
-<br>
+class: center, middle, full-image
 
-ESP32 • GNSS • sensores abiertos • R • Python
+<img src="hardware-01.png" height="80%">
+
+---
+class: two-images
+
+<div class="img-grid">
+
+<img src="hardware-02.jpg">
+
+<img src="hardware-03.jpg">
+
+</div>
 
 ---
 
@@ -634,11 +790,11 @@ class:center,middle
 
 # De datos a gobernanza
 
-<img src="imagenes/pipeline.png" width="100%">
+---
 
-<br>
+class: center, middle, full-image
 
-Datos → Análisis → Conocimiento → Decisiones
+<img src="gobernanza-01.png" height="100%">
 
 ---
 
@@ -648,13 +804,13 @@ class:center,middle
 
 "No gestionamos agua.
 
-Gestionamos territorio"
+Gestionamos territorio y, dentro de él, el agua."
 
 </div>
 
 <br><br>
 
-La geografía integra observación, tecnología y sociedad.
+La geografía integra procesos físicos, observación, tecnología y sociedad.
 
 ---
 class: large, inverse, center, middle
